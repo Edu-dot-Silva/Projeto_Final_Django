@@ -1,0 +1,7 @@
+fazer o sistema de cadastro que redireciona pra pagina principal
+fazer o sistema de login que redireciona pra pagina principal
+fazer o sistema de recuperar senha (só js que muda o html)
+fazer a pagina de cadastro de artistas com dois formulario que add artista e add generos novos
+levar pro spotify original
+se der fazer um filtro de genero ou de alguma order e pensar no que colocar na navbar
+estilizar tudo baseado no brandmark

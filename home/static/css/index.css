@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    /* background-color: #16171a; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    color: #00e78c;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.img_logo_home{
+width: 320px;
+}
+label{
+    display: block;
+    margin: 8px;
+}
+input{
+    display: block;
+    margin: 8px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background-color: #16171a;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #00c978;
+    width: 200px;
+    padding: 6px;
+}
+.esqueceu_senha{
+    display: block;
+    margin: 8px;
+    color: #00e78c;
+    text-decoration:none;
+    font-size: 12px;
+    text-align: left;
+}
+
+.btns_home{
+    width: 100px;
+    height: 32px;
+    font-size: 18px;
+    background-color: #00e78c;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: all ease-in-out 0.1s;
+    text-decoration: none;
+
+}
+
+.btns_home:hover{
+    transform: scale(0.95);
+}
+
+.btn_cadastro{
+    background-color: #00bb6e;
+    text-decoration: none;
+}
+
+.btn_recupera{
+    width: 200px;
+    text-decoration: none;
+}

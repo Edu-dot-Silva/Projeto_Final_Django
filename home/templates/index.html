@@ -1,0 +1,15 @@
+{% extends 'master_index.html' %}
+{% load static %}
+
+{% block content %}
+<form action="">
+    <label for="">E-mail:</label>
+    <input type="email">
+    <label for="">Senha:</label>
+    <input type="password">
+    <a href="{% url 'reset_senha' %}" class="esqueceu_senha">Esqueceu a senha?</a>
+    <button class="btns_home btn_login">Login</button>
+    <a href="{% url 'cadastro_usuario' %}" class="btns_home btn_cadastro">Cadastrar</a>
+
+</form>
+{% endblock %}

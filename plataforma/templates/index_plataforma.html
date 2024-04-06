@@ -1,0 +1,41 @@
+{% extends 'master_plataforma.html' %}
+{% load static %}
+
+{% block content %}
+<header>
+
+</header>
+
+<h1>Bem-vindo {{ usuario.nome }}</h1>
+<main> 
+<form class="formulario_cadastra_artista" action="">
+<label for="">Artista</label>
+<input type="text">
+<label for="">Gênero</label>
+<select name="" id="">
+    <option value="" hidden>Selecione</option>
+    <option value="">Pop</option>
+    <option value="">Rock</option>
+    <option value="">Hip - Hop</option>
+    <option value="">Eletronic</option>
+    <option value="">R&B</option>
+    <option value="">Reggae</option>
+    <option value="">Country</option>
+    <option value="">K-Pop</option>
+    <option value="">Jazz</option>
+    <option value="">Reggaeton</option>
+</select>
+<label for="">Imagem</label>
+<input type="file">
+
+<input class="btn_add" type="submit" value="Adicionar Artista">
+</form>
+
+<h1>Artistas Adicionados</h1>
+
+<section class="section_de_artistas">
+
+
+</section>
+</main>
+{% endblock %}
